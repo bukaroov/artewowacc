@@ -1,0 +1,21 @@
+/*General*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+    background-image: url(../img/fondo-pag.jpg);
+    height: 100vh;
+    background-size:cover;
+}
+
+.btn-primary{
+    background: rgba(254,193,7,255);
+    border: 0;
+}
