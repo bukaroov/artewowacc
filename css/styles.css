@@ -9,13 +9,52 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/*imagen de main*/
 .hero{
     background-image: url(../img/fondo-pag.jpg);
-    height: 100vh;
+    width: 100%;
+    padding-top: 40%;
     background-size:cover;
 }
+
+/*botones*/
 
 .btn-primary{
     background: rgba(254,193,7,255);
     border: 0;
 }
+
+.btn-primary:hover{
+    background: rgba(43,162,166,255);
+    border: 0;
+}
+
+.btn-primary:hover{
+    transform:scale(1.2);
+}
+
+.nav-link:hover{
+    transform:scale(1.1);
+}
+
+.btn-footer:hover{
+    transform:scale(1.2);
+}
+
+/*redes sociales*/
+
+.focus-redes {
+	animation: text-focus-in 5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ @keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
