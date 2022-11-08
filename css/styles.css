@@ -9,6 +9,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+*::selection{
+    background-color: #FEBD59;
+    color: #2CA2A4;
+}
+
 /*imagen de main*/
 .hero{
     background-image: url(../img/fondo-pag.jpg);
@@ -20,12 +25,12 @@
 /*botones*/
 
 .btn-primary{
-    background: rgba(254,193,7,255);
+    background: #FEBD59;
     border: 0;
 }
 
 .btn-primary:hover{
-    background: rgba(43,162,166,255);
+    background: #2CA2A4;
     border: 0;
 }
 

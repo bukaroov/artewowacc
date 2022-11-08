@@ -1,0 +1,23 @@
+/*botones*/
+
+.btn-primary{
+    background: $maincolor;
+    border: 0;
+}
+
+.btn-primary:hover{
+    background: $secondcolor;
+    border: 0;
+}
+
+.btn-primary:hover{
+    transform:scale(1.2);
+}
+
+.nav-link:hover{
+    transform:scale(1.1);
+}
+
+.btn-footer:hover{
+    transform:scale(1.2);
+}
